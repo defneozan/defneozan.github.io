@@ -3,7 +3,7 @@ title: "Data-driven computation of adjoint sensitivities without adjoint solvers
 collection: publications
 category: manuscripts
 permalink: /publication/2024-phys-rev-fluids
-excerpt: "<img src='/images/image_2023_phys_rev_fluids.png'>"
+excerpt: "<img src='/images/image_2024_phys_rev_fluids.png'>"
 date: 2024-10-25
 venue: "Physical Review Fluids"
 paperurl: "https://arxiv.org/pdf/2404.11738"
