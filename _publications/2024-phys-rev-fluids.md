@@ -9,7 +9,6 @@ venue: 'Physical Review Fluids'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/pdf/2404.11738'
 citation: 'Defne E. Ozan, Luca Magri (2024). &quot;Data-driven computation of adjoint sensitivities without adjoint solvers: An application to thermoacoustics.&quot; <i>Phys. Rev. Fluids. 9. 103902.'
-
 # ![Adjoints](images/image_2024_phys_rev_fluids.png)
 ---
 
