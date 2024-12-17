@@ -3,7 +3,7 @@ title: "Hard-constrained neural networks for modelling nonlinear acoustics"
 collection: publications
 category: manuscripts
 permalink: /publication/2023-phys-rev-fluids
-excerpt: 'We develop acoustic neural networks, in which prior physical knowledge is embedded as both soft and hard constraints. We predict and extrapolate in time thermoacoustic oscillations, reconstruct pressure and velocity over the entire domain from pressure sensors only, and obtain a model that is robust to noise and generalizable to unseen scenarios.'
+excerpt: '<img src='/images/image_2023_phys_rev_fluids.png'>We develop acoustic neural networks, in which prior physical knowledge is embedded as both soft and hard constraints. We predict and extrapolate in time thermoacoustic oscillations, reconstruct pressure and velocity over the entire domain from pressure sensors only, and obtain a model that is robust to noise and generalizable to unseen scenarios.'
 date: 2023-10-25
 venue: 'Physical Review Fluids'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
