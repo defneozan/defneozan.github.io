@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-phys-rev-fluids
 excerpt: 'In this work, we model acoustic and thermoacoustic pressure and velocity oscillations from synthetic data. The synthetic data captures the rich nonlinear behaviour of thermoacoustic oscillations observed in propulsion and power generation. We develop acoustic neural networks, in which prior physical knowledge is embedded as both soft and hard constraints. We predict and extrapolate in time thermoacoustic oscillations, reconstruct pressure and velocity over the entire domain from pressure sensors only, and obtain a model that is robust to noise and generalizable to unseen scenarios.'
-date: 2023-10.25
+date: 2023-10-25
 venue: 'Physical Review Fluids'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://arxiv.org/pdf/2305.15511'
