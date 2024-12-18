@@ -86,8 +86,8 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    if len(str(item.paper_url)) > 5:
-        md += "\nrepo: '" + item.paper_url + "'"
+    if len(str(item.repo)) > 5:
+        md += "\nrepo: '" + item.repo + "'"
 
     md += "\ncitation: '" + html_escape(item.citation) + "'"
     
@@ -98,7 +98,7 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\n\n<a href='" + item.paper_url + "'>[paper]</a>\n" 
     
-    if len(str(item.paper_url)) > 5:
+    if len(str(item.repo)) > 5:
         md += "\n\n<a href='" + item.repo + "'>[GitHub]</a>\n" 
 
     if len(str(item.excerpt)) > 5:
