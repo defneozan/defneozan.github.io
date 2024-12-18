@@ -66,6 +66,8 @@
     <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl %}
     <p><a href=" {{ post.paperurl }} ">[paper]</a></p>
+    {% elsif post.paperurl and post.repo%}
+    <p><a href=" {{ post.paperurl }} ">[paper]</a><a href="{{ post.repo }}">[GitHub]</a></p>
     {% elsif post.slidesurl %}
     <p><a href="{{ post.slidesurl }}">[slides]</a></p>
     {% endif %}
