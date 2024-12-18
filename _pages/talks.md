@@ -11,6 +11,7 @@ author_profile: true
 * Magri L., Ozan D.E., “Hard-constrained neural networks for modelling nonlinear acoustics”. Phys. Rev. Fluids Journal Club. Online. 2024. (Invited)
 * Ozan D.E., Magri L., “Data-driven inference of adjoint sensitivities without adjoint solvers: An application to thermoacoustics”. 76th Annual meeting of the American Physical Society Division of Fluid Dynamics. Washington DC. 2023
 * Ozan D.E., Magri L., “Hard-constrained thermoacoustic neural networks”. Leeds Institute for Fluid Dynamics Workshop in data-driven methods, machine learning and optimization in fluid mechanics. Leeds. 2023.
+  * Selected for the Best Talk Award
 * Ozan D.E., Magri L., “Physics-aware learning of thermoacoustic limit cycles”. 75th Annual meeting of the American Physical Society Division of Fluid Dynamics. Indianapolis. 2022.
 
 ### Tutorials
@@ -19,4 +20,4 @@ author_profile: true
 
 ### Outreach
 ***
-* Exhibited at New Scientist Live as part of the AI for Net Zero project. 2024 
+* Exhibited at the New Scientist Live as part of the AI for Net Zero project. 2024.

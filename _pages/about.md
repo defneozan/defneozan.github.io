@@ -25,5 +25,6 @@ My research interests lie in the data-driven modelling, prediction and control o
 ***
 * PhD, Department of Aeronautics, Imperial College London, April 2025 (expected)
 * MSc in Robotics, Systems and Control, ETH Zurich, 2021
+  * *NCCR Robotics MSc Thesis Award* given to best female master’s students in 	the field of robotics in Switzerland
 * BSc in Mechanical Engineering, Koc University, 2019
-* BSc exchange in Mechanical Engineering, Chinese University of Hong Kong, 2017
+  * Exchange in Chinese University of Hong Kong, 2017
