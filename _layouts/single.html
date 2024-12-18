@@ -61,11 +61,11 @@ layout: default
 
         {% if page.citation and page.paperurl and page.slidesurl and page.repo%}
         <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a
-            href="{{ page.paperurl }}">[paper]</a> | <a href="{{ page.slidesurl }}">[slides]</a><a
+            href="{{ page.paperurl }}">[papera]</a> | <a href="{{ page.slidesurl }}">[slides]</a><a
             href="{{ page.repo }}">[GitHub]</a></p>
         {% elsif page.citation and page.paperurl and page.repo%}
         <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a
-            href="{{ page.paperurl }}">[paper]</a><a
+            href="{{ page.paperurl }}">[paperb]</a><a
             href="{{ page.repo }}">[GitHub]</a></p>
         {% elsif page.citation and page.slidesurl %}
         <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a
