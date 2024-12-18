@@ -7,6 +7,6 @@ excerpt: "<img src='/images/image_2024_phys_rev_fluids.png'>  We introduce a dat
 date: 2024-10-25
 venue: "Physical Review Fluids"
 paperurl: "https://arxiv.org/pdf/2404.11738"
-repo: 'https://github.com/MagriLab/Adjoint-ESN'
+repourl: 'https://github.com/MagriLab/Adjoint-ESN'
 # citation: "Defne E. Ozan, Luca Magri (2024). &quot;Data-driven computation of adjoint sensitivities without adjoint solvers: An application to thermoacoustics.&quot; <i>Phys. Rev. Fluids</i>. 9. 103902."
 ---

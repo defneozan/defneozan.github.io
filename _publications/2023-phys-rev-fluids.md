@@ -8,6 +8,6 @@ date: 2023-10-25
 venue: 'Physical Review Fluids'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://arxiv.org/pdf/2305.15511'
-repo: 'https://github.com/MagriLab/HCTA'
+repourl: 'https://github.com/MagriLab/HCTA'
 # citation: 'Defne E. Ozan, Luca Magri (2023). &quot;Hard-constrained neural networks for modelling nonlinear acoustics.&quot; <i>Phys. Rev. Fluids</i>. 8. 103201.'
 ---
