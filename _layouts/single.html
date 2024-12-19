@@ -60,17 +60,15 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.repourl%}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a
-            href="{{ page.paperurl }}">[paper]</a> | <a href="{{ page.slidesurl }}">[slides]</a><a
-            href="{{ page.repourl }}">[GitHub]</a></p>
+        <p style="font-size: smaller">Cite as: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a> | <a
+            href="{{ page.slidesurl }}">[slides]</a><a href="{{ page.repourl }}">[GitHub]</a></p>
         {% elsif page.citation and page.paperurl and page.repourl%}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a
-            href="{{ page.paperurl }}">[paper]</a><a href="{{ page.repourl }}">[GitHub]</a></p>
+        <p style="font-size: smaller">Cite as: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a><a
+            href="{{ page.repourl }}">[GitHub]</a></p>
         {% elsif page.citation and page.slidesurl %}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a
-            href="{{ page.slidesurl }}">[slides]</a></p>
+        <p style="font-size: smaller">Cite as: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">[slides]</a></p>
         {% elsif page.citation %}
-        <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        <p style="font-size: smaller">Cite as: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
         <p style="font-size: smaller"><a href="{{ page.slidesurl }}">[slides]</a></p>
         {% endif %}
