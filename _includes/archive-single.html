@@ -55,23 +55,27 @@
     {% endif %}
 
     {% if post.citation and post.doiurl and post.paperurl and post.slidesurl and post.repourl %}
-    <p>Cite as: {{ post.citation }}<br /><a href="{{ post.doiurl }}">[doi]</a><a href="{{ post.paperurl }}">[paper]</a><a
-        href="{{ post.slidesurl }}">[slides]</a><a href="{{ post.repourl }}">[GitHub]</a></p>
+    <p>Cite as: {{ post.citation }}<br /><a href="{{ post.doiurl }}">[doi]</a><a
+        href="{{ post.paperurl }}">[paper]</a><a href="{{ post.slidesurl }}">[slides]</a><a
+        href="{{ post.repourl }}">[code]</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl and post.repourl %}
     <p>Cite as: {{ post.citation }}<br /><a href="{{ post.paperurl }}">[paper]</a><a
-        href="{{ post.slidesurl }}">[slides]</a><a href="{{ post.repourl }}">[GitHub]</a></p>
+        href="{{ post.slidesurl }}">[slides]</a><a href="{{ post.repourl }}">[code]</a></p>
     {% elsif post.doiurl and post.paperurl and post.slidesurl and post.repourl %}
     <p><a href="{{ post.doiurl }}">[doi]</a><a href="{{ post.paperurl }}">[paper]</a><a
-        href="{{ post.slidesurl }}">[slides]</a><a href="{{ post.repourl }}">[GitHub]</a></p>
+        href="{{ post.slidesurl }}">[slides]</a><a href="{{ post.repourl }}">[code]</a></p>
     {% elsif post.doiurl and post.paperurl and post.repourl %}
-    <p><a href="{{ post.doiurl }}">[doi]</a><a href="{{ post.paperurl }}">[paper]</a><a href="{{ post.repourl }}">[GitHub]</a></p>    
+    <p><a href="{{ post.doiurl }}">[doi]</a><a href="{{ post.paperurl }}">[paper]</a><a
+        href="{{ post.repourl }}">[code]</a></p>
     {% elsif post.citation and post.paperurl and post.repourl %}
     <p>Cite as: {{ post.citation }}<br /><a href="{{ post.paperurl }}">[paper]</a><a
-        href="{{ post.repourl }}">[GitHub]</a></p>
+        href="{{ post.repourl }}">[code]</a></p>
     {% elsif post.citation and post.slidesurl %}
     <p>Cite as: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">[slides]</a></p>
     {% elsif post.paperurl and post.repourl %}
-    <p><a href=" {{ post.paperurl }} ">[paper]</a><a href="{{ post.repourl }}">[GitHub]</a></p>
+    <p><a href=" {{ post.paperurl }} ">[paper]</a><a href="{{ post.repourl }}">[code]</a></p>
+    {% elsif post.doiurl and post.paperurl%}
+    <p><a href="{{ post.doiurl }}">[doi]</a><a href="{{ post.paperurl }}">[paper]</a></p>
     {% elsif post.citation %}
     <p>Cite as: {{ post.citation }}</p>
     {% elsif post.paperurl %}

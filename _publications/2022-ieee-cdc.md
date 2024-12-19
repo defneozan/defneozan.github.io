@@ -8,6 +8,7 @@ date: 2022-12-06
 venue: 'IEEE 61st Conference on Decision and Control (CDC)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 doiurl: "https://doi.org/10.1109/CDC51059.2022.9992791"
-paperurl: 'https://arxiv.org/pdf/2203.16306'
+paperurl: "https://arxiv.org/pdf/2203.16306"
+repourl: "https://www.research-collection.ethz.ch/handle/20.500.11850/578928"
 # citation: 'Ozan, D. E., Yin, M., Iannelli, A., & Smith, R. S. (2022). Kernel-Based Identification of Local Limit Cycle Dynamics with Linear Periodically Parameter-Varying Models. In 2022 IEEE 61st Conference on Decision and Control (CDC) (pp. 221-226). IEEE.'
 ---

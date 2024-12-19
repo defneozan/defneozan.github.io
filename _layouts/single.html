@@ -61,10 +61,10 @@ layout: default
 
         {% if page.citation and page.paperurl and page.slidesurl and page.repourl%}
         <p style="font-size: smaller">Cite as: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a> | <a
-            href="{{ page.slidesurl }}">[slides]</a><a href="{{ page.repourl }}">[GitHub]</a></p>
+            href="{{ page.slidesurl }}">[slides]</a><a href="{{ page.repourl }}">[code]</a></p>
         {% elsif page.citation and page.paperurl and page.repourl%}
         <p style="font-size: smaller">Cite as: {{ page.citation }}<br /><a href="{{ page.paperurl }}">[paper]</a><a
-            href="{{ page.repourl }}">[GitHub]</a></p>
+            href="{{ page.repourl }}">[code]</a></p>
         {% elsif page.citation and page.slidesurl %}
         <p style="font-size: smaller">Cite as: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">[slides]</a></p>
         {% elsif page.citation %}

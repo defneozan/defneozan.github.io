@@ -9,5 +9,6 @@ venue: "3rd IFAC Conference on Modelling, Identification and Control of Nonlinea
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 doiurl: "https://doi.org/10.1016/j.ifacol.2021.10.379"
 paperurl: "https://andreaian.github.io/pub/MICNON21_SysIdBif.pdf"
+repourl: "https://www.research-collection.ethz.ch/handle/20.500.11850/521400"
 # citation: ''
 ---

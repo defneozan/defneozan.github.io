@@ -15,7 +15,7 @@ author_profile: true
 
 ### Tutorials
 ***
-* Tutorial on physics-constrained neural networks as part of Luca Magri’s lecture on “Data-driven modelling and control for fluid mechanics” at the Isaac Newton Institute’s workshop on the mathematical and statistical foundation of future data-driven engineering. 2023. [[GitHub]](https://github.com/MagriLab/NewtonWorkshop2023/tree/main/thermoacoustic_neural_networks)
+* Tutorial on physics-constrained neural networks as part of Luca Magri’s lecture on “Data-driven modelling and control for fluid mechanics” at the Isaac Newton Institute’s workshop on the mathematical and statistical foundation of future data-driven engineering. 2023. [[code]](https://github.com/MagriLab/NewtonWorkshop2023/tree/main/thermoacoustic_neural_networks)
 
 ### Outreach
 ***
