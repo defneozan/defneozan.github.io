@@ -5,11 +5,17 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -25,6 +31,7 @@
 
   .page__inner-wrap {
     @include full();
+    padding: 2em;
 
     .page__content,
     .page__meta,
@@ -46,6 +53,10 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  color: $text-color;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.5em;
 }
 
 .page__content {

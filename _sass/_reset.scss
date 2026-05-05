@@ -7,7 +7,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color: $background-color;
+  background-color: var(--background-color);
   font-size: 16px;
 
   @include breakpoint($medium) {
@@ -26,12 +26,12 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #000;
+  background: $accent-primary;
 }
 
 ::selection {
   color: #fff;
-  background: #000;
+  background: $accent-primary;
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
@@ -68,6 +68,31 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+  position: relative;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, $accent-primary, $accent-secondary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+a:hover {
+  color: $link-color-hover;
+  transform: translateY(-1px);
+}
+
+a:hover::after {
+  transform: scaleX(1);
 }
 
 /* Apply focus state */
